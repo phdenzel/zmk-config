@@ -23,6 +23,13 @@
 
 
 // ---------------------------
+// Set number of underglow + per-key RGB LEDs
+&led_strip {
+    chain-length = <21>;  // using only per-key RGBs
+};
+
+
+// ---------------------------
 / {
 // -------------------- Home row mods
     behaviors {
