@@ -11,6 +11,9 @@
 #   - board: nice_nano_v2
 #     shield: reviung41
 #
+# Note: by default the nice!view display and underglow LEDs occupy the
+# same pin (006).
+# TODO: reconfigure the underglow LEDs to use a different pin.
 ---
 include:
   - board: nice_nano_v2
